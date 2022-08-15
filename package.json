@@ -1,0 +1,37 @@
+{
+  "name": "mehr-afarin",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "@coreui/coreui": "^4.2.0",
+    "@coreui/react": "^4.3.1",
+    "@coreui/react-pro": "^4.4.1",
+    "bootstrap": "^5.2.0",
+    "glamor": "^2.20.40",
+    "mongoose": "^6.5.0",
+    "next": "latest",
+    "next-videos": "^1.5.0",
+    "prop-types": "^15.8.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.4.0",
+    "react-native-video": "^5.2.0",
+    "react-nextjs-toast": "^1.2.5",
+    "react-player": "^2.10.1",
+    "react-toast-notifications": "^2.5.1",
+    "react-toastify": "^8.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1"
+  }
+}

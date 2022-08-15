@@ -1,0 +1,1152 @@
+
+body {
+  text-align: center;
+  font-family: 'Markazi Text', sans-serif;
+  --light: hsl(0, 0%, 100%);
+  /* --background: linear-gradient(to left bottom, hsl(222, 54%, 27%), hsl(222, 54%, 31%), hsl(222, 54%, 37%), hsl(222, 52%, 53%)); */
+}
+
+h1 {
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  direction: rtl;
+  text-align: justify;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.h3-black {
+  color: #000;
+}
+
+.section-title{
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.section-p{
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.white-color{
+  color: #fff;
+}
+
+.black-color{
+  color: #000;
+}
+
+.nastaligh-font{
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+}
+
+.markazi-font{
+  font-family: 'Markazi Text', sans-serif;
+}
+
+/* ---------------------------------------  Sections ---------------------------- */
+.colored-section {
+  color: #fff;
+  background-color: #36AE7C;
+}
+
+.white-section {
+  color: #8f8f8f;
+  background-color: #fff;
+}
+
+/* ---------------------------------------- Navbar ---------------------------- */
+.navbar {
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  z-index: 1;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.nav-div{
+  padding-top: 1%;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-top: 1%;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: bold;
+}
+
+/* ------------------------------ Title Section ------------------------------ */
+
+.title-div {
+  padding-bottom: 9%;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+.title-h1-div {
+  padding: 12% 10% 0 5%
+}
+
+.h1-title{
+  direction: rtl;
+  text-align: justify;
+  font-weight: 900;
+  font-size: 3.7rem;
+  line-height: 2;
+}
+
+.title-buttom-div {
+  text-align: right;
+  padding-top: 20%;
+}
+
+.title-buttom {
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  font-size: 1.3rem;
+  padding-bottom: 16px;
+  margin: 0 2% 0 10%;
+}
+
+.title-img {
+  width: 50%;
+  position: absolute;
+  top: 18%;
+  left: -7%;
+}
+
+.title-y-color {
+  position: absolute;
+  width: 10%;
+  right: 0;
+  top: 10%;
+}
+
+.title-r-color {
+  position: absolute;
+  width: 45%;
+  top: 0;
+  right: 35%;
+}
+
+.title-buttom-icon {
+  width: 26px;
+  height: 21px;
+  margin-right: 1rem;
+}
+
+/* --------------------------- Feature Section ---------------------------------- */
+#features {
+  padding: 5% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box-info {
+  padding: 15% 5%;
+  direction: rtl;
+  text-align: justify;
+}
+
+.feature-box-img {
+  padding: 5%;
+}
+
+.feature-title {
+  padding-bottom: 10%;
+}
+
+
+.feature-img {
+  width: 85%;
+}
+
+.feature-rp {
+  position: absolute;
+  width: 30%;
+  right: 14%;
+  top: 15%;
+  z-index: -1;
+}
+
+.feature-bp {
+  position: absolute;
+  width: 7%;
+  left: 0;
+  top: 25%;
+  padding: 0;
+}
+
+/* ------------------------------ Goals Section ---------------------------- */
+#goals {
+  padding: 4% 15% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.goals-box-info {
+  padding: 13% 5%;
+  direction: rtl;
+  text-align: justify;
+}
+
+.goals-box-img {
+  padding: 8% 5% 8% 0;
+}
+
+.goals-title {
+  padding-bottom: 10%;
+}
+
+.goals-img {
+  width: 110%;
+}
+
+.goals-yp {
+  position: absolute;
+  left: 11%;
+  top: 13%;
+  width: 35%;
+  z-index: -1;
+}
+
+.goals-gp {
+  position: absolute;
+  width: 100%;
+  top: -16%;
+  right: 0;
+  padding: 0;
+}
+
+/* -------------------------------- Slider Pooyesh-ha Slide -------------------------------*/
+#pooyesh-ha {
+  padding: 0 0 5%;
+  background-color: #187498;
+}
+
+.carousel-indicators {
+  /* flex-direction: row-reverse; */
+  bottom: -5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border: 2%;
+  border-radius: 10%;
+}
+
+.pooyesh-bp {
+  position: absolute;
+  width: 102%;
+  right: 0;
+  top: -18%;
+  z-index: 1;
+}
+
+.pooyesh-rp1 {
+  position: absolute;
+  width: 7.5%;
+  left: 4.5%;
+  top: 42%;
+  /* z-index: 1; */
+}
+
+.pooyesh-rp2 {
+  position: absolute;
+  width: 7%;
+  right: 4.5%;
+  top: 42%;
+}
+
+/* ----------------------------------- Footer --------------------------------- */
+#footer {
+  padding: 1% 15% 1%;
+  direction: rtl;
+}
+
+.footer-a {
+  color: #000;
+}
+
+.footer-a:hover {
+  color: #F9D923;
+}
+
+.footer-icon {
+  margin: 0 1%;
+}
+
+.footer-p {
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 1.1rem;
+  padding-top: 15%;
+  margin-bottom: 0;
+  color: #000;
+}
+
+
+.footer-rightSection{
+  text-align: right;
+  padding-right: 3%;
+}
+
+.footer-leftSection{
+  text-align: right;
+  padding-right: 10%;
+}
+
+.footer-heading{
+  font-family: 'Noto Nastaliq Urdu', sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+}
+
+.footer-link{
+  font-size: 1.2rem;
+  font-family: 'Markazi Text', sans-serif;
+  color: #000;
+  padding-right: 3%;
+}
+
+.contact-link{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding-right: 3%;
+  direction: ltr;
+}
+
+.contact-heading{
+  padding-bottom: 10%;
+}
+
+.listItem-img{
+  color: #000;
+  
+}
+
+.footer-hr { 
+  background: url('images/mehrAfarin3.png') no-repeat top center;
+  background-size: 90px;
+  display: block;
+  opacity: 70%;
+  height: 90px;
+  border: 0;
+  position: relative;
+}
+.footer-hr:before,
+.footer-hr:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #d7d7d7d4;
+  height: 1px;
+  top: 45px;
+}
+.footer-hr:before {
+  left: 0;
+  right: 55%;
+  margin-right: 30px;
+}
+.footer-hr:after {
+  right: 0;
+  left: 55%;
+  margin-left: 30px;
+}
+
+/* ----------------------------------- Events Table --------------------------- */
+#events{
+  padding: 7% 15% 10%;
+  background-color: #187498;
+  direction: rtl;
+}
+
+.eventSection-title{
+  margin-bottom: 10%;
+  padding-right: 2%;
+  font-size: 2rem;
+}
+
+.card-event{
+  padding: 2% 3%;
+  font-family: 'Markazi Text', sans-serif;
+  margin-top: 0;
+}
+
+.card{
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  transition: 0.4s;
+}
+
+.card:hover{
+  box-shadow: 0 20px 40px rgba(137, 137, 137, 0.456);
+  cursor: pointer;
+  transition: 0.4s;
+  transform: translateY(5px);
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-content{
+  font-size: 1.4rem;
+}
+
+
+/* ---------------------------------- Modal ---------------------------------- */
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  -webkit-animation: maximize 400ms linear;
+  animation: maximize 400ms linear;
+}
+
+.Toastify__toast--success {
+  background: #07bc0c;
+}
+
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+.modal-content {
+  background-color: #20366B;
+  color: var(--light);
+  /* background: var(--background); */
+  box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+  /* color: #fff; */
+  margin: 5% auto;
+  padding: 15px;
+  border-radius: .8rem;
+  width: 30%;
+  text-align: right;
+}
+
+.modal-body {
+  padding: 2% 8% 5% 8%;
+  direction: rtl;
+}
+
+.modal-close {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 4rem;
+  text-align: center;
+  cursor: pointer;
+  color: #EEEEEE;
+  padding-right: 6%;
+  opacity: 50%;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: #EB5353;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-hide{
+  display: none;
+}
+
+.modal-show{
+  display: block;
+}
+
+.modal-h1 {
+  font-size: 1.7rem;
+  color: #EB5353;
+}
+
+.modal-h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  padding: 5% 0;
+  color: rgb(255, 253, 253);
+}
+
+.add-space {
+  margin-top: 1rem;
+}
+
+input[type='email'] {
+  text-align: left;
+  direction: ltr;
+  font-size: 1.3rem;
+}
+
+input[type='email']::placeholder {
+  font-size: 1.3rem;
+  opacity: 0.7;
+  color: #aaa;
+}
+
+input[type='text']{
+  font-size: 1.1rem;
+}
+
+textarea{
+  font-size: 1.1rem;
+}
+
+input.form-control, textarea.form-control {
+  border: 0;
+  outline: none !important;
+  outline-width: 0;
+  border-bottom: 2px solid #BDC3C7;
+  border-radius: 0;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #BDC3C7;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 2px solid #EB5353;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #BDC3C7;
+}
+
+.form-lable{
+  font-family: 'Markazi Text', sans-serif;
+  font-size: 1.2rem;
+  padding-top: 3%;
+  color: rgb(255, 253, 253);
+}
+
+#sendBtn{
+  padding: 2% 4% 4%;
+  margin-top: 10%;
+}
+
+/* The Success Modal */
+
+.succ-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.succ-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.succ-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.succ-close:hover,
+.succ-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #EB5353; /* Black #383636*/
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+  margin-top: 10%;
+  opacity: 80%;
+}
+
+/* ------------------------------- Payment Method ---------------------------------- */
+.payment-gif{
+  width: 80%;
+}
+
+#payment-section{
+  padding: 0 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.payment-box-info {
+  padding: 15% 5%;
+  direction: rtl;
+  text-align: justify;
+}
+
+.peyment-box-img {
+  padding: 5% -5%;
+}
+
+.payment-title{
+  padding-bottom: 10%;
+}
+
+.payment-details{
+  padding-right: 1%;
+}
+
+.line-height{
+  line-height: 1;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale3d(0.1, 0.1, 1);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+  }
+
+  55% {
+    -webkit-transform: scale3d(1.08, 1.08, 1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: scale3d(0.95, 0.95, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+  }
+}
+
+@keyframes minimise {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(0.1, 0.1, 1);
+  }
+}
+
+@keyframes maximize {
+  0% {
+    -webkit-transform: scale3d(0.1, 0.1, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+/* ------------------------------------------- Breakpoints -------------------------------- */
+/* --------------------------------------------- Tablet md ------------------------------------- */
+@media (max-width: 1008px) {
+
+  .colored-section {
+    color: rgb(14, 14, 14);
+  }
+
+  /* ----------------- Title Section ------------ */
+  .nav-link{
+    font-size: 1.1rem;
+  }
+
+  .navbar-nav{
+    text-align: right;
+  }
+
+  .h1-title{
+    font-weight: 400;
+    font-size: 2.7rem;
+    line-height: 1;
+  }
+
+  .title-buttom-div{
+    padding-top: 10%;
+  }
+
+  .title-buttom {
+    font-size: 1rem;
+    padding-bottom: 16px;
+    margin: 0 2% 0 5%;
+  }
+
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding-top: 1%;
+  }
+
+  .title-img {
+    top: 14%;
+  }
+
+  /* ------------------- Collaboration Modal ------------- */
+  .modal-content {
+    padding: 15px;
+    width: 60%;
+  }
+
+  .modal-h1 {
+    font-size: 1.5rem;
+  }
+
+  .modal-close {
+    font-size: 3rem;
+    padding-right: 5%;
+  }
+
+  .modal-h3 {
+    font-size: 1.2rem;
+    padding: 3% 0;
+  }
+
+  .form-lable{
+    font-size: 1.1rem;
+  }
+
+  #sendBtn{
+    font-size: 0.9rem;
+  }
+
+  /* --------------------- Feature Section --------------- */
+
+  .section-title{
+    font-size: 1.3rem;
+    padding-bottom: 6%;
+  }
+
+  .section-p{
+    font-size: 1.3rem;
+  }
+
+  .feature-box-info {
+    padding: 15% 5% 4%;
+  }
+  
+  .feature-img {
+    width: 49%;
+  }
+
+  .feature-rp {
+    width: 42%;
+    right: 25%;
+    top: 44%;
+  }
+
+  .feature-bp {
+    width: 9%;
+    height: 40%;
+    left: 0;
+    top: 20%;
+    padding: 0;
+  }
+
+  /* ----------------------- Goal Section ---------------------- */
+  .goals-img {
+    width: 75%;
+  }
+
+  .goals-yp {
+    left: 20%;
+    top: 5%;
+    width: 48%;
+  }
+
+  .goals-box-info {
+    padding: 8% 5% 5%;
+  }
+
+  .goals-gp {
+    top: -8.5%;
+    width: 100%;
+    right: 0;
+  }
+
+  /* ----------------- Event Section --------------------- */
+  .eventSection-title{
+    margin-bottom: 7%;
+    font-size: 1.6rem;
+  }
+
+  .card-title{
+    font-size: 1.4rem;
+  }
+
+  .card-content{
+    font-size: 1.3rem;
+  }
+
+  /* ----------------- Payment Section ----------------- */
+  .payment-gif{
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  /* ----------------- Footer Section ------------------ */
+  .footer-heading{
+    font-size: 1.4rem;
+    padding-bottom: 6%;
+  }
+
+  .footer-link{
+    font-size: 1.1rem;
+  }
+
+  .middle-column{
+    width: 20%;
+  }
+
+  .footer-leftSection{
+    width: 40%;
+  }
+
+  .footer-rightSection{
+    width: 40%;
+  }
+
+  .contact-link{
+    font-size: 0.9rem;
+  }
+
+}
+
+/*------------------------------------- xs --> mobile ------------------------------------- */
+@media (max-width: 768px) {   
+  .section-title{
+    color: #3f2893;
+  }
+
+  .feature-img {
+    width: 55%;
+  }
+
+  .feature-rp {
+    width: 47%;
+    right: 21%;
+    top: 47%;
+  }
+
+  .goals-gp {
+    top: -8%;
+  }
+
+  .card-title{
+    font-size: 1.3rem;
+  }
+
+  .card-content{
+    font-size: 1.2rem;
+  }
+
+  .eventSection-title{
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+  }
+
+  .payment-gif{
+    width: 70%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+  }
+
+  .payment-title{
+    text-align: center;
+  }
+
+  .payment-box-info {
+    padding: 15% 5% 0;
+    direction: rtl;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------- Mobile ------------------------------------- */
+@media (max-width: 600px) {
+  .colored-section {
+    color: rgb(220, 49, 49);
+  }
+
+   /* ----------------- Title Section ------------ */
+   .nav-link{
+    font-size: 0.9rem;
+  }
+
+  .h1-title{
+    font-size: 2rem;
+  }
+
+  .title-buttom {
+    font-size: 0.9rem;
+  }
+
+  .title-img {
+    width: 60%;
+    top: 12%;
+    left: -17%;
+  }
+
+  .navbar-brand {
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+
+  /* ------------------- Collaboration Modal ------------- */
+  .modal-content {
+    margin: 7% auto;
+    padding: 13px;
+    width: 75%;
+    padding: 15px 0;
+  }
+
+  .modal-h1 {
+    font-size: 1.3rem;
+  }
+
+  .modal-close {
+    font-size: 2rem;
+    padding-right: 9%;
+  }
+
+  .modal-h3 {
+    font-size: 1.1rem;
+    padding: 2% 0 0;
+  }
+
+  .form-lable{
+    font-size: 1rem;
+  }
+
+  #sendBtn{
+    font-size: 0.9rem;
+  }
+
+  .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #EB5353;
+  }
+
+    /* --------------------- Feature Section --------------- */
+
+    .section-title{
+      font-size: 1.2rem;
+    }
+  
+    .section-p{
+      font-size: 1.2rem;
+    }
+  
+    .feature-box-info {
+      padding: 15% 5% 4%;
+    }
+    
+    .feature-img {
+      width: 56%;
+    }
+  
+    .feature-rp {
+      width: 49%;
+      right: 21%;
+      top: 50%;
+    }
+  
+    .feature-bp {
+      width: 9%;
+      height: 40%;
+      left: 0;
+      top: 20%;
+      padding: 0;
+    }
+
+    /* ------------------- Goal Section ---------------------- */
+    .goals-gp {
+      top: -7.5%;
+    }
+
+    .card-title{
+      font-size: 1.2rem;
+    }
+  
+    .card-content{
+      font-size: 1.1rem;
+    }
+
+    /* ------------------- Event Section ---------------------- */
+    .eventSection-title{
+      font-size: 1.3rem;
+      padding: 5% 0 10%;
+    }
+
+    /* ----------------- Footer Section ------------------ */
+  .footer-heading{
+    font-size: 1.2rem;
+    padding-bottom: 6%;
+  }
+
+  .footer-link{
+    font-size: 1rem;
+  }
+
+  .middle-column{
+    width: 10%;
+  }
+
+  .footer-leftSection{
+    width: 45%;
+  }
+
+  .footer-rightSection{
+    width: 45%;
+  }
+
+  .contact-link{
+    font-size: 0.8rem;
+  }
+
+  .footer-p {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .section-title{
+    color: #be14b5;
+  }
+
+  .goals-gp {
+    top: -7%;
+  }
+
+  .eventSection-title{
+    font-size: 1.5rem;
+    padding-bottom: 10%;
+  }
+
+  .payment-gif{
+    width: 75%;
+  }
+
+  .middle-column{
+    width: 6%;
+  }
+
+  .footer-leftSection{
+    width: 46%;
+    padding-right: 5%;
+  }
+
+  .footer-rightSection{
+    width: 48%;
+    padding-bottom: 10%;
+  }
+
+  .footer-p {
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 463px) {
+
+  .section-title{
+    color: #07bc0c;
+  }
+
+  .feature-rp {
+    width: 49%;
+    right: 21%;
+    top: 53%;
+  }
+
+  .goals-gp {
+    top: -6.8%;
+  }
+
+  .eventSection-title{
+    font-size: 1.3rem;
+    padding: 5% 0 12%;
+  }
+
+  .footer-p {
+    padding-top: 15%;
+  }
+}
