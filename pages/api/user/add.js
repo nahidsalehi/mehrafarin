@@ -1,7 +1,5 @@
-import connectMongo from '../../../utils/ConnectMongo';
-import User from '../../../models/userModel';
-import SuccessModal from '../../../components/Successmodal';
-import { ToastContainer, toast } from 'react-toastify';
+import connectMongo from '../utils/ConnectMongo';
+import User from '../models/userModel';
 import 'react-toastify/dist/ReactToastify.css';
 
 /**
