@@ -951,7 +951,7 @@ input.form-control, textarea.form-control {
   .title-img {
     width: 60%;
     top: 12%;
-    left: -19%;
+    left: -20%;
   }
 
   .navbar-brand {
@@ -1122,6 +1122,10 @@ input.form-control, textarea.form-control {
   /* .section-title{
     color: #07bc0c;
   } */
+  
+  .h1-title{
+    font-size: 1.8rem;
+  }
 
   .feature-rp {
     width: 49%;
@@ -1130,7 +1134,7 @@ input.form-control, textarea.form-control {
   }
 
   .goals-gp {
-    top: -6.5%;
+    top: -6.3%;
   }
 
   .eventSection-title{
