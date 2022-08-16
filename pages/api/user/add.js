@@ -1,5 +1,5 @@
-import connectMongo from '../../utils/ConnectMongo';
-import User from '../../models/userModel';
+import connectMongo from '../../../utils/ConnectMongo';
+import User from '../../../models/userModel';
 import 'react-toastify/dist/ReactToastify.css';
 
 /**
