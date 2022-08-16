@@ -710,10 +710,6 @@ input.form-control, textarea.form-control {
 /* --------------------------------------------- Tablet md ------------------------------------- */
 @media (max-width: 1008px) {
 
-  .colored-section {
-    color: rgb(14, 14, 14);
-  }
-
   /* ----------------- Title Section ------------ */
   .nav-link{
     font-size: 1.1rem;
@@ -881,9 +877,6 @@ input.form-control, textarea.form-control {
 
 /*------------------------------------- xs --> mobile ------------------------------------- */
 @media (max-width: 768px) {   
-  .section-title{
-    color: #3f2893;
-  }
 
   .feature-img {
     width: 55%;
@@ -931,9 +924,6 @@ input.form-control, textarea.form-control {
 
 /* --------------------------------------------- Mobile ------------------------------------- */
 @media (max-width: 600px) {
-  .colored-section {
-    color: rgb(220, 49, 49);
-  }
 
    /* ----------------- Title Section ------------ */
    .nav-link{
@@ -1081,10 +1071,6 @@ input.form-control, textarea.form-control {
 
 @media (max-width: 550px) {
 
-  .section-title{
-    color: #be14b5;
-  }
-
   .goals-gp {
     top: -7%;
   }
@@ -1118,10 +1104,6 @@ input.form-control, textarea.form-control {
 }
 
 @media (max-width: 463px) {
-
-  .section-title{
-    color: #07bc0c;
-  }
 
   .feature-rp {
     width: 49%;
