@@ -275,14 +275,6 @@ p {
   border-radius: 10%;
 }
 
-.pooyesh-bp {
-  position: absolute;
-  width: 102%;
-  right: 0;
-  top: -18%;
-  z-index: 1;
-}
-
 .pooyesh-rp1 {
   position: absolute;
   width: 7.5%;
@@ -366,7 +358,7 @@ p {
 }
 
 .footer-hr { 
-  background: url('images/mehrAfarin3.png') no-repeat top center;
+  background: url('images/mehrAfarin.png') no-repeat top center;
   background-size: 90px;
   display: block;
   opacity: 70%;

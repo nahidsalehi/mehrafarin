@@ -10,19 +10,19 @@
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img src="images/pooyesh1.jpg" className="carousel-img" alt="pooyesh1-img"></img>
+                    <img src="" className="carousel-img" alt="pooyesh1-img"></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h5>پویش اول - پاییز 1399</h5>
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="images/pooyesh2.jpg" className="carousel-img" alt="pooyesh1-img"></img>
+                    <img src="" className="carousel-img" alt="pooyesh1-img"></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h5>پویش دوم - زمستان 1399</h5>
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="images/pooyesh3.jpg" className="carousel-img" alt="pooyesh3-img"></img>
+                    <img src="" className="carousel-img" alt="pooyesh3-img"></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h5>پویش سوم - بهار 1400</h5>
                     </div>
@@ -36,9 +36,9 @@
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-                <img className="pooyesh-bp" src="images/pooyesh-bp2.png" alt="pooyesh-bp-img"></img>
-                <img className="pooyesh-rp1" src="images/pooyesh-rp1.png" alt="pooyesh-rp-img"></img>
-                <img className="pooyesh-rp2" src="images/pooyesh-rp2.png" alt="pooyesh-rp-img"></img>
+                {/* src: images/pooyesh-rp1.png , images/pooyesh-rp2.png */}
+                <img className="pooyesh-rp1" src="" alt="pooyesh-rp-img"></img> 
+                <img className="pooyesh-rp2" src="" alt="pooyesh-rp-img"></img>
             </div>
         </section>
     );
